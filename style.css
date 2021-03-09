@@ -1,0 +1,67 @@
+.row {
+  display: flex;
+  height: 450px;
+  align-items: center;
+}
+.card + .end {
+  align-self: flex-end;
+}
+
+.rowed {
+  display: flex;
+  /*  flex-wrap: wrap;*/
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 300px;
+  /*justify-content: space-around;*/
+}
+.card > p {
+  flex-grow: 1;
+}
+.btn {
+  color: white;
+  background-color: steelblue;
+  border-radius: 0.5rem;
+}
+.superscript {
+  position: relative;
+  bottom: 10px;
+}
+
+.notification {
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: rgb(51, 49, 49);
+  color: white;
+}
+.modal {
+  border: 1px solid black;
+  padding: 2rem;
+  margin: 2rem;
+  max-height: 350px;
+}
+.thumbnail {
+  position: relative;
+}
+.cross {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.new {
+  color: white;
+  background-color: rgb(253, 185, 253);
+  border: 1px solid pink;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
